@@ -1,0 +1,69 @@
+body {
+  color: white;
+  background-color: black;
+  font-size: x-large;
+}
+
+a {
+  color: lightgreen;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  padding: 0 0.25rem;
+  font-size: large;
+}
+
+th,
+td {
+  padding-right: 1.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.large {
+  width: 37.5rem;
+}
+
+.small {
+  width: 25rem;
+}
+
+h1 {
+  color: greenyellow;
+}
+
+h2 {
+  color: greenyellow;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+article,
+footer hr {
+  margin-bottom: 3rem;
+}
+
+.command {
+  color: yellow;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+span p,
+input {
+  font-style: italic;
+  margin-left: 0.2r5em;
+  margin-top: 0.25rem;
+}
+
+input[type="text"]:focus {
+  border: 0.1em solid green;
+  outline: none;
+}
