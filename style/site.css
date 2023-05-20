@@ -46,7 +46,8 @@ h2 {
 }
 
 article,
-footer hr {
+footer hr,
+audio {
   margin-bottom: 3rem;
 }
 
