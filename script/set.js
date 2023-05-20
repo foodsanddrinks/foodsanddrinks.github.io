@@ -1,5 +1,6 @@
 export function set(result) {
   if (result == null) return;
+
   let table = document.getElementById("table");
   table.innerHTML = "";
 
