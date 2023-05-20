@@ -56,9 +56,11 @@ footer hr {
   font-weight: bolder;
 }
 
-span p,
+div p {
+  font-style: italic;
+}
+
 input {
-  color: green;
   font-style: italic;
   margin-left: 0.2r5em;
   margin-top: 0.25rem;
