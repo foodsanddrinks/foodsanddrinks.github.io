@@ -63,7 +63,7 @@ div p {
 input {
   font-style: italic;
   margin-left: 0.25rem;
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
 }
 
 input[type="text"]:focus {
