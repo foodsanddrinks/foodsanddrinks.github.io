@@ -62,11 +62,11 @@ div p {
 
 input {
   font-style: italic;
-  margin-left: 0.2r5em;
+  margin-left: 0.25rem;
   margin-top: 0.25rem;
 }
 
 input[type="text"]:focus {
-  border: 0.1em solid green;
+  border: 0.1rem solid green;
   outline: none;
 }

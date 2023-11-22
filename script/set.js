@@ -4,6 +4,22 @@ export function set(result) {
   let table = document.getElementById("table");
   table.innerHTML = "";
 
+  let tr = document.createElement("tr");
+
+  let th1 = document.createElement("th");
+
+  let th2 = document.createElement("th");
+  th2.innerText = "Protein";
+
+  let th3 = document.createElement("th");
+  th3.innerText = "Carbohydrates";
+
+  tr.appendChild(th1);
+  tr.appendChild(th2);
+  tr.appendChild(th3);
+
+  table.appendChild(tr);
+
   for (let i = 0; i < result.length; i++) {
     let tr = document.createElement("tr");
 
